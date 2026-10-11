@@ -93,7 +93,43 @@ const I18N_DATA = {
       title: "📸 포토존 안내",
       subtitle: "부스 옆에 저승사자와 함께 기념사진을 남길 수 있는 포토존이 마련되어 있습니다! 축제의 잊지 못할 추억을 남겨보세요.",
       cardTitle: "📸 저승사자 기념 포토존",
-      cardDesc: "부스 옆에 저승사자와 함께 기념사진을 남길 수 있는 포토존이 마련되어 있습니다! 축제의 잊지 못할 추억을 남겨보세요."
+      cardDesc: "부스 옆에 저승사자와 함께 기념사진을 남길 수 있는 포토존이 마련되어 있습니다! 축제의 잊지 못할 추억을 남겨보세요.",
+      polaroidCaption: "PKNU I-FRIEND 2026 · 저승사자와 함께 👻",
+      instaBadge: "🏮 I-FRIEND 27기 옐로우 캠퍼스",
+      instaCopyBtn: "아이디 복사",
+      instaVisitBtn: "인스타 방문 ↗"
+    },
+    timer: {
+      titleS1: "제1관문: 화탕지옥 10초 챌린지",
+      titleS2: "제2관문: 독사지옥 10초 챌린지",
+      btnStart: "▶ 시작",
+      btnReset: "↺ 초기화",
+      btnClose: "✕ 닫기",
+      toastTimeout: "제한 시간 10초가 종료되었습니다!"
+    },
+    footer: {
+      desc: "국립부경대학교 아이프렌드 27기 옐로우 캠퍼스 '저승사자의 환생 심사소' 참가자 가이드"
+    },
+    toasts: {
+      copied: "복사되었습니다: ",
+      copyFail: "복사에 실패했습니다.",
+      langSwitched: "언어가 변경되었습니다: "
+    },
+    pass: {
+      heroPassRequired: "📜 명계 통행증 소지 필수",
+      heroPassBtn: "통행증 보기 ↗",
+      flowStepPassBtn: "📜 실물 통행증 보기 ↗",
+      bannerBadge: "📜 실제 부스 배부 물품 · 저승 통행증",
+      bannerName: "[저승 통행증]",
+      bannerDesc: "부스 입장 시 수령하여 화탕지옥·독사지옥 심사를 거쳐 All Pass 판정을 받으세요!",
+      passZoomHint: "🔍 터치하여 크게 보기",
+      passDetailBtn: "상세 보기 ↗",
+      modalHeading: "📜 저승 통행증 (Pass to the Netherworld)",
+      modalInfo: "부스 입장 시 수령하는 공식 저승 통행증입니다. 제1관문(화탕지옥)과 제2관문(독사지옥)을 통과하여 확인 도장을 받고 All Pass (환생 허가)를 획득하세요!",
+      passModalClose: "확인 완료",
+      stampFire: "🔥 제1관문: 화탕지옥 도장",
+      stampSnake: "🐍 제2관문: 독사지옥 도장",
+      stampAllPass: "✨ All Pass (환생 허가)"
     }
   },
 
@@ -184,7 +220,43 @@ const I18N_DATA = {
       title: "📸 Photo Zone Guide",
       subtitle: "A photo zone is available next to the booth where you can take souvenir photos with the Grim Reaper! Capture unforgettable memories of the festival.",
       cardTitle: "📸 Grim Reaper Photo Zone",
-      cardDesc: "A photo zone is available next to the booth where you can take souvenir photos with the Grim Reaper! Capture unforgettable memories of the festival."
+      cardDesc: "A photo zone is available next to the booth where you can take souvenir photos with the Grim Reaper! Capture unforgettable memories of the festival.",
+      polaroidCaption: "PKNU I-FRIEND 2026 · With the Grim Reaper 👻",
+      instaBadge: "🏮 I-FRIEND 27th Yellow Campus",
+      instaCopyBtn: "Copy ID",
+      instaVisitBtn: "Visit Instagram ↗"
+    },
+    timer: {
+      titleS1: "Trial 1: Boiling Hell 10s Challenge",
+      titleS2: "Trial 2: Viper Hell 10s Challenge",
+      btnStart: "▶ Start",
+      btnReset: "↺ Reset",
+      btnClose: "✕ Close",
+      toastTimeout: "Time limit of 10 seconds has ended!"
+    },
+    footer: {
+      desc: "PKNU I-FRIEND 27th Yellow Campus Festival 'Grim Reaper Reincarnation Screening Office' Guide"
+    },
+    toasts: {
+      copied: "Copied: ",
+      copyFail: "Failed to copy.",
+      langSwitched: "Language changed: "
+    },
+    pass: {
+      heroPassRequired: "📜 Underworld Pass Required",
+      heroPassBtn: "View Pass ↗",
+      flowStepPassBtn: "📜 View Official Pass ↗",
+      bannerBadge: "📜 Official Booth Item · Pass to the Netherworld",
+      bannerName: "[Underworld Pass]",
+      bannerDesc: "Receive this upon entry, clear both Hellish Trials, and earn your All Pass for reincarnation!",
+      passZoomHint: "🔍 Tap to Zoom",
+      passDetailBtn: "Details ↗",
+      modalHeading: "📜 Pass to the Netherworld",
+      modalInfo: "Official Underworld Pass given upon entry. Clear both Trial 1 (Boiling Hell) and Trial 2 (Viper Hell) to collect verification stamps and achieve All Pass!",
+      passModalClose: "Close",
+      stampFire: "🔥 Trial 1: Boiling Hell Stamp",
+      stampSnake: "🐍 Trial 2: Viper Hell Stamp",
+      stampAllPass: "✨ All Pass (Reincarnation Granted)"
     }
   },
 
@@ -276,7 +348,43 @@ const I18N_DATA = {
       title: "📸 フォトゾーン案内",
       subtitle: "ブースの隣には、死神と一緒に記念撮影ができるフォトゾーンが用意されています！お祭りの忘れられない思い出を残しましょう。",
       cardTitle: "📸 死神 記念フォトゾーン",
-      cardDesc: "ブースの隣には、死神と一緒に記念撮影ができるフォトゾーンが用意されています！お祭りの忘れられない思い出を残しましょう。"
+      cardDesc: "ブースの隣には、死神と一緒に記念撮影ができるフォトゾーンが用意されています！お祭りの忘れられない思い出を残しましょう。",
+      polaroidCaption: "PKNU I-FRIEND 2026 · 死神と一緒に 👻",
+      instaBadge: "🏮 I-FRIEND 27期 イエローキャンパス",
+      instaCopyBtn: "IDをコピー",
+      instaVisitBtn: "インスタを見る ↗"
+    },
+    timer: {
+      titleS1: "第1関門: 火湯地獄 10秒チャレンジ",
+      titleS2: "第2関門: 毒蛇地獄 10秒チャレンジ",
+      btnStart: "▶ 開始",
+      btnReset: "↺ リセット",
+      btnClose: "✕ 閉じる",
+      toastTimeout: "制限時間10秒が終了しました！"
+    },
+    footer: {
+      desc: "釜慶大学校 I-FRIEND 27期 イエローキャンパス「死神の転生審査所」参加者ガイド"
+    },
+    toasts: {
+      copied: "コピーしました: ",
+      copyFail: "コピーに失敗しました。",
+      langSwitched: "言語を変更しました: "
+    },
+    pass: {
+      heroPassRequired: "📜 冥界通行証 所持必須",
+      heroPassBtn: "通行証を見る ↗",
+      flowStepPassBtn: "📜 実物通行証を見る ↗",
+      bannerBadge: "📜 ブース配布品 · 冥界通行証",
+      bannerName: "[冥界通行証]",
+      bannerDesc: "入場時に受け取り、火湯地獄・毒蛇地獄の試練を突破してAll Pass判定を勝ち取れ！",
+      passZoomHint: "🔍 タップして拡大",
+      passDetailBtn: "詳細を見る ↗",
+      modalHeading: "📜 冥界通行証 (Pass to the Netherworld)",
+      modalInfo: "入場時に受け取る公式の通行証です。第1関門（火湯地獄）と第2関門（毒蛇地獄）のスタンプを獲得して現世への転生許可をゲット！",
+      passModalClose: "確認完了",
+      stampFire: "🔥 第1関門: 火湯地獄スタンプ",
+      stampSnake: "🐍 第2関門: 毒蛇地獄スタンプ",
+      stampAllPass: "✨ All Pass (転生許可)"
     }
   },
 
@@ -365,10 +473,45 @@ const I18N_DATA = {
     photo: {
       tag: "PHOTO ZONE",
       title: "📸 拍照区指南",
-      subtitle: "摊位旁设有可以和阴间使者一起拍照的拍照区！快来留下属于你的难忘节庆回忆吧！"
-      ,
+      subtitle: "摊位旁设有可以和阴间使者一起拍照的拍照区！快来留下属于你的难忘节庆回忆吧！",
       cardTitle: "📸 阴间使者拍照区",
-      cardDesc: "摊位旁设有可以和阴间使者一起拍照的拍照区！快来留下属于你的难忘节庆回忆吧！"
+      cardDesc: "摊位旁设有可以和阴间使者一起拍照的拍照区！快来留下属于你的难忘节庆回忆吧！",
+      polaroidCaption: "PKNU I-FRIEND 2026 · 与阴间使者合影 👻",
+      instaBadge: "🏮 I-FRIEND 27期 黄色校园",
+      instaCopyBtn: "复制账号",
+      instaVisitBtn: "访问Instagram ↗"
+    },
+    timer: {
+      titleS1: "第一关: 火汤地狱 10秒挑战",
+      titleS2: "第二关: 毒蛇地狱 10秒挑战",
+      btnStart: "▶ 开始",
+      btnReset: "↺ 重置",
+      btnClose: "✕ 关闭",
+      toastTimeout: "10秒限时已结束！"
+    },
+    footer: {
+      desc: "国立釜庆大学 I-FRIEND 27期 黄色校园「阴间使者的转生审查所」参与者指南"
+    },
+    toasts: {
+      copied: "已复制: ",
+      copyFail: "复制失败。",
+      langSwitched: "语言已切换: "
+    },
+    pass: {
+      heroPassRequired: "📜 必须持有冥界通行证",
+      heroPassBtn: "查看通行证 ↗",
+      flowStepPassBtn: "📜 查看官方通行证 ↗",
+      bannerBadge: "📜 展位现场发放 · 冥界通行证",
+      bannerName: "[冥界通行证]",
+      bannerDesc: "入场时领取，顺利通过火汤地狱与毒蛇地狱考核并获得 All Pass 重返阳间！",
+      passZoomHint: "🔍 点击放大查看",
+      passDetailBtn: "详细信息 ↗",
+      modalHeading: "📜 冥界通行证 (Pass to the Netherworld)",
+      modalInfo: "入场时领取的官方通行证。通过第一关火汤地狱与第二关毒蛇地狱并盖章，即可获得全通（允许转世）判定！",
+      passModalClose: "确认关闭",
+      stampFire: "🔥 第一关: 火汤地狱印章",
+      stampSnake: "🐍 第二关: 毒蛇地狱印章",
+      stampAllPass: "✨ All Pass (允许转世)"
     }
   },
 
@@ -459,7 +602,43 @@ const I18N_DATA = {
       title: "📸 拍照區指南",
       subtitle: "攤位旁設有可以和陰間使者一起拍照的拍照區！快來留下屬於你的難忘節慶回憶吧！",
       cardTitle: "📸 陰間使者拍照區",
-      cardDesc: "攤位旁設有可以和陰間使者一起拍照的拍照區！快來留下屬於你的難忘節慶回憶吧！"
+      cardDesc: "攤位旁設有可以和陰間使者一起拍照的拍照區！快來留下屬於你的難忘節慶回憶吧！",
+      polaroidCaption: "PKNU I-FRIEND 2026 · 與陰間使者合影 👻",
+      instaBadge: "🏮 I-FRIEND 27期 黃色校園",
+      instaCopyBtn: "複製帳號",
+      instaVisitBtn: "訪問Instagram ↗"
+    },
+    timer: {
+      titleS1: "第一關: 火湯地獄 10秒挑戰",
+      titleS2: "第二關: 毒蛇地獄 10秒挑戰",
+      btnStart: "▶ 開始",
+      btnReset: "↺ 重置",
+      btnClose: "✕ 關閉",
+      toastTimeout: "10秒限時已結束！"
+    },
+    footer: {
+      desc: "國立釜慶大學 I-FRIEND 27期 黃色校園「陰間使者的轉生審查所」參與者指南"
+    },
+    toasts: {
+      copied: "已複製: ",
+      copyFail: "複製失敗。",
+      langSwitched: "語言已切換: "
+    },
+    pass: {
+      heroPassRequired: "📜 必須持有冥界通行證",
+      heroPassBtn: "查看通行證 ↗",
+      flowStepPassBtn: "📜 查看官方通行證 ↗",
+      bannerBadge: "📜 攤位現場發放 · 冥界通行證",
+      bannerName: "[冥界通行證]",
+      bannerDesc: "入場時領取，順利通過火湯地獄與毒蛇地獄考驗並獲得 All Pass 重返陽間！",
+      passZoomHint: "🔍 點擊放大查看",
+      passDetailBtn: "詳細資訊 ↗",
+      modalHeading: "📜 冥界通行證 (Pass to the Netherworld)",
+      modalInfo: "入場時領取的官方通行證。通過第一關火湯地獄與第二關毒蛇地獄並蓋章，即可獲得全通（允許轉世）判定！",
+      passModalClose: "確認關閉",
+      stampFire: "🔥 第一關: 火湯地獄印章",
+      stampSnake: "🐍 第二關: 毒蛇地獄印章",
+      stampAllPass: "✨ All Pass (允許轉世)"
     }
   }
 };
@@ -530,7 +709,7 @@ function renderLanguage(lang) {
   setText('flow-tag', data.flow.tag);
   setText('flow-title', data.flow.title);
   setText('flow-subtitle', data.flow.subtitle);
-  renderFlowCards(data.flow.steps);
+  renderFlowCards(data.flow.steps, data.pass ? data.pass.flowStepPassBtn : '📜 실물 통행증 보기 ↗');
 
   // Stages Section
   setText('stages-tag', data.stages.tag);
@@ -575,6 +754,46 @@ function renderLanguage(lang) {
   setText('photo-subtitle', data.photo.subtitle);
   setText('photo-card-title', data.photo.cardTitle);
   setText('photo-card-desc', data.photo.cardDesc);
+  if (data.photo) {
+    setText('hero-insta-badge-txt', data.photo.instaBadge);
+    setText('insta-copy-btn', data.photo.instaCopyBtn);
+    setText('insta-visit-btn', data.photo.instaVisitBtn);
+    setText('polaroid-caption', data.photo.polaroidCaption);
+  }
+
+  // Timer Modal
+  if (data.timer) {
+    setText('timer-btn-start', data.timer.btnStart);
+    setText('timer-btn-reset', data.timer.btnReset);
+    setText('timer-btn-close', data.timer.btnClose);
+  }
+
+  // Footer
+  if (data.footer) {
+    setText('footer-desc', data.footer.desc);
+    setText('footer-link-theme', data.nav.theme);
+    setText('footer-link-flow', data.nav.flow);
+    setText('footer-link-rules', data.nav.rules);
+    setText('footer-link-rewards', data.nav.rewards);
+    setText('footer-link-photo', data.nav.photo);
+  }
+
+  // Pass Section
+  if (data.pass) {
+    setText('hero-pass-required', data.pass.heroPassRequired);
+    setText('hero-pass-btn', data.pass.heroPassBtn);
+    setText('pass-banner-badge-txt', data.pass.bannerBadge);
+    setText('pass-banner-name', data.pass.bannerName);
+    setText('pass-banner-desc-txt', data.pass.bannerDesc);
+    setText('pass-banner-zoom-hint', data.pass.passZoomHint);
+    setText('pass-view-detail-btn', data.pass.passDetailBtn);
+    setText('pass-modal-heading', data.pass.modalHeading);
+    setText('pass-modal-info-text', data.pass.modalInfo);
+    setText('pass-modal-confirm-btn', data.pass.passModalClose);
+    setText('stamp-chip-fire', data.pass.stampFire);
+    setText('stamp-chip-snake', data.pass.stampSnake);
+    setText('stamp-chip-allpass', data.pass.stampAllPass);
+  }
 }
 
 function setText(id, text) {
@@ -583,7 +802,7 @@ function setText(id, text) {
 }
 
 /* FLOW & REWARDS RENDERING - MOBILE ROADMAP */
-function renderFlowCards(steps) {
+function renderFlowCards(steps, passBtnText = '📜 실물 통행증 보기 ↗') {
   const container = document.getElementById('flow-grid');
   if (!container) return;
   container.innerHTML = steps.map((step, idx) => `
@@ -596,6 +815,7 @@ function renderFlowCards(steps) {
         <div class="flow-card-content">
           <h3 class="flow-title">${step.title}</h3>
           <p class="flow-desc">${step.desc}</p>
+          ${idx === 1 ? `<div style="margin-top: 0.55rem;"><button class="talisman-glow-btn" style="font-size: 0.72rem; padding: 0.25rem 0.65rem;" onclick="event.stopPropagation(); openPassPreview()">${passBtnText}</button></div>` : ''}
         </div>
       </div>
       ${idx < steps.length - 1 ? '<div class="flow-step-divider"><span>↓</span></div>' : ''}
@@ -619,10 +839,9 @@ function openTimerModal(stageNum) {
   const overlay = document.getElementById('timer-modal-overlay');
   if (overlay) overlay.classList.add('active');
   const title = document.getElementById('timer-stage-title');
-  if (title) {
-    title.textContent = stageNum === 1 
-      ? '제1관문: 화탕지옥 10초 챌린지' 
-      : '제2관문: 독사지옥 10초 챌린지';
+  const data = I18N_DATA[currentLang] || I18N_DATA['ko'];
+  if (title && data.timer) {
+    title.textContent = stageNum === 1 ? data.timer.titleS1 : data.timer.titleS2;
   }
   resetTimer();
 }
@@ -658,7 +877,8 @@ function startTimer() {
       clearInterval(timerInterval);
       if (display) display.textContent = "TIME UP!";
       playBeep(260, 0.4);
-      showToast("제한 시간 10초가 종료되었습니다!");
+      const data = I18N_DATA[currentLang] || I18N_DATA['ko'];
+      showToast(data.timer ? data.timer.toastTimeout : "제한 시간 10초가 종료되었습니다!");
     }
   }, 1000);
 }
@@ -713,11 +933,12 @@ function showToast(msg) {
 }
 
 function copyPhrase(text) {
+  const data = I18N_DATA[currentLang] || I18N_DATA['ko'];
   navigator.clipboard.writeText(text).then(() => {
-    showToast(`복사되었습니다: "${text}"`);
+    showToast(`${data.toasts ? data.toasts.copied : "복사되었습니다: "} "${text}"`);
     playBeep(650, 0.08);
   }).catch(() => {
-    showToast("복사에 실패했습니다.");
+    showToast(data.toasts ? data.toasts.copyFail : "복사에 실패했습니다.");
   });
 }
 
@@ -726,7 +947,8 @@ function setupEventListeners() {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       renderLanguage(btn.dataset.lang);
-      showToast(`언어가 변경되었습니다: ${btn.textContent}`);
+      const data = I18N_DATA[btn.dataset.lang] || I18N_DATA['ko'];
+      showToast(`${data.toasts ? data.toasts.langSwitched : "언어가 변경되었습니다: "}${btn.textContent}`);
     });
   });
 }

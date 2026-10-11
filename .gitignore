@@ -1,0 +1,7 @@
+# Backup files
+*_backup.*
+*backup*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db

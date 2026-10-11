@@ -109,11 +109,11 @@
           <img src="assets/insta_cover.jpg" alt="저승사자의 환생 심사소 공식 일러스트" class="hero-art-img" id="hero-art-img">
           <div class="hero-art-overlay">
             <div class="hero-insta-badge">
-              <span>🏮 I-FRIEND 27기 옐로우 캠퍼스</span>
+              <span id="hero-insta-badge-txt">🏮 I-FRIEND 27기 옐로우 캠퍼스</span>
             </div>
             <div class="floating-talisman-bar">
-              <span>📜 명계 통행증 소지 필수</span>
-              <button class="talisman-glow-btn" onclick="event.stopPropagation(); openPassPreview()">통행증 보기 ↗</button>
+              <span id="hero-pass-required">📜 명계 통행증 소지 필수</span>
+              <button class="talisman-glow-btn" id="hero-pass-btn" onclick="event.stopPropagation(); openPassPreview()">통행증 보기 ↗</button>
             </div>
           </div>
         </div>
@@ -182,6 +182,29 @@
       <!-- Flow Steps Road Map -->
       <div class="flow-grid" id="flow-grid">
         <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- UNDERWORLD PASS SHOWCASE CARD -->
+      <div class="pass-preview-banner" onclick="openPassPreview()" id="pass-showcase-banner">
+        <div class="pass-banner-header">
+          <div class="pass-banner-badge">
+            <span class="pulse-dot"></span>
+            <span id="pass-banner-badge-txt">📜 실제 부스 배부 물품 · 저승 통행증</span>
+          </div>
+          <span class="pass-banner-zoom-hint" id="pass-banner-zoom-hint">🔍 터치하여 크게 보기</span>
+        </div>
+        <div class="pass-banner-img-frame">
+          <img src="assets/underworld_pass.png" alt="저승 통행증 (Pass to the Netherworld)" class="pass-banner-img" id="pass-banner-img">
+        </div>
+        <div class="pass-banner-footer">
+          <div class="pass-banner-desc">
+            <strong id="pass-banner-name">[저승 통행증]</strong>
+            <span id="pass-banner-desc-txt">부스 입장 시 수령하여 화탕지옥·독사지옥 심사를 거쳐 All Pass 판정을 받으세요!</span>
+          </div>
+          <button class="pass-view-detail-btn" id="pass-view-detail-btn" onclick="event.stopPropagation(); openPassPreview()">
+            상세 보기 ↗
+          </button>
+        </div>
       </div>
     </section>
 
@@ -339,10 +362,10 @@
               <span class="insta-account">@i_friend_pknu</span>
             </div>
             <div class="insta-tag-actions">
-              <button class="insta-btn" onclick="copyPhrase('@i_friend_pknu')">
+              <button class="insta-btn" id="insta-copy-btn" onclick="copyPhrase('@i_friend_pknu')">
                 아이디 복사
               </button>
-              <a href="https://www.instagram.com/p/DeGDvCWAWHe/" target="_blank" rel="noopener" class="insta-btn insta-visit-btn">
+              <a href="https://www.instagram.com/p/DeGDvCWAWHe/" target="_blank" rel="noopener" class="insta-btn insta-visit-btn" id="insta-visit-btn">
                 인스타 방문 ↗
               </a>
             </div>
@@ -352,8 +375,8 @@
         <!-- Polaroid Visual Mockup -->
         <div class="polaroid-mockup-wrap">
           <div class="polaroid-frame">
-            <img src="assets/talisman_amulet.jpg" alt="저승사자 부적 폴라로이드" class="polaroid-photo">
-            <div class="polaroid-caption">PKNU I-FRIEND 2024 · 저승사자와 함께 👻</div>
+            <img src="assets/photo_zone_live.jpg" alt="저승사자의 환생 심사소 포토존 현장" class="polaroid-photo">
+            <div class="polaroid-caption" id="polaroid-caption">PKNU I-FRIEND 2026 · 저승사자와 함께 👻</div>
           </div>
         </div>
       </div>
@@ -369,26 +392,43 @@
       </h3>
       <div class="timer-countdown-display" id="timer-countdown-display">10</div>
       <div class="timer-modal-actions">
-        <button class="btn-primary" onclick="startTimer()">▶ 시작</button>
-        <button class="btn-secondary" onclick="resetTimer()">↺ 초기화</button>
-        <button class="btn-secondary" onclick="closeTimerModal()">✕ 닫기</button>
+        <button class="btn-primary" id="timer-btn-start" onclick="startTimer()">▶ 시작</button>
+        <button class="btn-secondary" id="timer-btn-reset" onclick="resetTimer()">↺ 초기화</button>
+        <button class="btn-secondary" id="timer-btn-close" onclick="closeTimerModal()">✕ 닫기</button>
       </div>
     </div>
   </div>
 
   <!-- PASS PREVIEW MODAL -->
   <div class="timer-modal-overlay" id="pass-modal-overlay" onclick="closePassPreview()">
-    <div class="timer-modal-content" style="max-width: 360px; padding: 1.4rem;" onclick="event.stopPropagation()">
-      <h3 style="color: var(--gold-glow); font-size: 1.15rem; font-weight: 800; margin-bottom: 0.8rem;">
-        📜 저승 통행증 (冥界通行證)
-      </h3>
-      <img src="assets/underworld_pass.jpg" alt="저승 통행증" style="width: 100%; border-radius: 12px; box-shadow: 0 0 20px rgba(168, 85, 247, 0.4); margin-bottom: 0.9rem;">
-      <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1.1rem; line-height: 1.5;">
-        이 통행증을 소지한 자만이 화탕지옥과 독사지옥의 심사를 거쳐 이승으로 환생할 수 있습니다.
-      </p>
-      <button class="btn-primary" style="width: 100%; justify-content: center;" onclick="closePassPreview()">
-        확인 완료
-      </button>
+    <div class="pass-modal-box" onclick="event.stopPropagation()">
+      <div class="pass-modal-top">
+        <h3 class="pass-modal-heading" id="pass-modal-heading">
+          📜 저승 통행증 <span class="pass-sub-lang">(Pass to the Netherworld)</span>
+        </h3>
+        <button class="pass-modal-close" onclick="closePassPreview()" aria-label="닫기">✕</button>
+      </div>
+      <div class="pass-modal-body">
+        <div class="pass-modal-img-container">
+          <img src="assets/underworld_pass.png" alt="저승 통행증 실물" class="pass-modal-large-img">
+        </div>
+        <div class="pass-modal-info">
+          <p class="pass-modal-text" id="pass-modal-info-text">
+            부스 입장 시 수령하는 <strong>공식 저승 통행증</strong>입니다.<br>
+            제1관문(화탕지옥)과 제2관문(독사지옥)을 통과하여 확인 도장을 받고 <strong>All Pass (환생 허가)</strong>를 획득하세요!
+          </p>
+          <div class="pass-modal-stamp-hints">
+            <span class="stamp-chip fire" id="stamp-chip-fire">🔥 제1관문: 화탕지옥 도장</span>
+            <span class="stamp-chip snake" id="stamp-chip-snake">🐍 제2관문: 독사지옥 도장</span>
+            <span class="stamp-chip allpass" id="stamp-chip-allpass">✨ All Pass (환생 허가)</span>
+          </div>
+        </div>
+      </div>
+      <div class="pass-modal-actions">
+        <button class="btn-primary" id="pass-modal-confirm-btn" style="width: 100%; justify-content: center;" onclick="closePassPreview()">
+          확인 완료
+        </button>
+      </div>
     </div>
   </div>
 
@@ -398,13 +438,13 @@
   <!-- SITE FOOTER -->
   <footer class="site-footer">
     <div class="footer-brand">I-FRIEND · PUKYONG NATIONAL UNIVERSITY</div>
-    <p>국립부경대학교 아이프렌드 27기 옐로우 캠퍼스 '저승사자의 환생 심사소' 참가자 가이드</p>
+    <p id="footer-desc">국립부경대학교 아이프렌드 27기 옐로우 캠퍼스 '저승사자의 환생 심사소' 참가자 가이드</p>
     <div class="footer-links">
-      <a href="#hero-section">테마</a>
-      <a href="#flow-section">순서</a>
-      <a href="#rules-section">규칙</a>
-      <a href="#rewards-section">리워드</a>
-      <a href="#photo-section">포토존</a>
+      <a href="#hero-section" id="footer-link-theme">테마</a>
+      <a href="#flow-section" id="footer-link-flow">순서</a>
+      <a href="#rules-section" id="footer-link-rules">규칙</a>
+      <a href="#rewards-section" id="footer-link-rewards">리워드</a>
+      <a href="#photo-section" id="footer-link-photo">포토존</a>
       <a href="https://www.instagram.com/p/DeGDvCWAWHe/" target="_blank" rel="noopener">@i_friend_pknu</a>
     </div>
     <p style="margin-top: 0.8rem; font-size: 0.72rem; color: var(--text-dim);">
