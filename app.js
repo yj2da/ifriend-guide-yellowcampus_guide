@@ -310,7 +310,7 @@ const I18N_DATA = {
     flow: {
       tag: "PARTICIPATION FLOW",
       title: "🗺️ 参与流程",
-      subtitle: "进入摊位 ➔ 领取通行证 ➔ 第一关（火汤地狱）➔ 第二关（毒蛇地狱）➔ 确认结果 ➔ 基本奖励 ➔ 回忆纸签抽奖 ➔ 离场",
+      subtitle: "进入摊位 ➔ 领取通行证 ➔ 第一关（火汤地狱） ➔ 第二关（毒蛇地狱） ➔ 确认结果 ➔ 基本奖励 ➔ 回忆纸签抽奖 ➔ 离场",
       steps: [
         { num: "01", icon: "🚪", title: "进入摊位", desc: "按照排队线有序进入摊位。" },
         { num: "02", icon: "📜", title: "领取通行证", desc: "从阴间使者处领取专属通行证。" },
@@ -402,7 +402,7 @@ const I18N_DATA = {
     flow: {
       tag: "PARTICIPATION FLOW",
       title: "🗺️ 參與流程",
-      subtitle: "進入攤位 ➔ 領取通行證 ➔ 第一關（火湯地獄）➔ 第二關（毒蛇地獄）➔ 確認結果 ➔ 基本獎勵 ➔ 回憶紙簽抽獎 ➔ 離場",
+      subtitle: "進入攤位 ➔ 領取通行證 ➔ 第一關（火湯地獄） ➔ 第二關（毒蛇地獄） ➔ 確認結果 ➔ 基本獎勵 ➔ 回憶紙簽抽獎 ➔ 離場",
       steps: [
         { num: "01", icon: "🚪", title: "進入攤位", desc: "按照排隊線有序進入攤位。" },
         { num: "02", icon: "📜", title: "領取通行證", desc: "從陰間使者處領取專屬通行證。" },
@@ -480,6 +480,14 @@ document.addEventListener('DOMContentLoaded', () => {
 /* RENDER LANGUAGE TEXT */
 function renderLanguage(lang) {
   currentLang = lang;
+  const htmlLangMap = {
+    ko: 'ko',
+    en: 'en',
+    jp: 'ja',
+    cn: 'zh-CN',
+    tw: 'zh-TW'
+  };
+  document.documentElement.lang = htmlLangMap[lang] || 'ko';
   const data = I18N_DATA[lang] || I18N_DATA.ko;
 
   // Language buttons active state
