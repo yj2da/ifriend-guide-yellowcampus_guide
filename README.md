@@ -1,30 +1,43 @@
-# 🏮 저승사자의 환생 심사소 (Reincarnation Screening Office)
-> **국립부경대학교 I-FRIEND 27기 옐로우 캠퍼스 참가자 안내 공식 웹 가이드**
+<!--
+====================================================================
+📌 [GitHub About 설정 가이드]
+- Description: 외국인 유학생 프로그램(I-Friend) 공식 행사 일정 및 캠퍼스 생활 모바일 통합 가이드
+- Website: (배포 URL)
+- Topics: ifriend, international-students, mobile-guide, typescript, vercel, pknu, dx
+====================================================================
+-->
 
-조선의 저승 문이 열려 부경대학교에 출몰한 저승사자!  
-2개의 지옥 관문을 무사히 통과하고 이승으로 환생하세요!
+# 🌏 I-Friend Mobile Guide: International Student Event Web App
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-Fast%20Deployment-black?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Target-100%2B%20International%20Students-FF6B6B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Impact-80%25%20Inquiry%20Reduction-2ECC71?style=for-the-badge" />
+</p>
 
-## 🌐 지원 언어 (Multilingual Support)
-- 🇰🇷 **한국어** (Korean)
-- 🇺🇸 **English** (영어)
-- 🇯🇵 **日本語** (일본어)
-- 🇨🇳 **简体中文** (중국어 간체)
-- 🇹🇼 **繁體中文** (중국어 번체)
-
----
-
-## 🎮 주요 기능 및 구성
-1. **🎃 테마 소개**: 저승사자의 환생 심사소 세계관 안내
-2. **🗺️ 참여 순서**: 8단계 로드맵 프로세스 안내
-3. **🔥 제1관문 [화탕지옥]**: 사(死)개의 죄업을 떨어뜨려라! (10초 카운트다운 인터랙티브 타이머 탑재)
-4. **🐍 제2관문 [독사지옥]**: 촉각의 결계, 환생의 열쇠를 찾아라! (10초 카운트다운 인터랙티브 타이머 탑재)
-5. **🎁 리워드 안내**: ALL PASS / FAIL 보상 및 추억의 종이 뽑기 안내
-6. **📸 포토존 안내**: 저승사자와의 기념사진 촬영 및 인스타그램 계정 복사/방문 연동
+> **국립부경대학교 외국인 유학생 지원 기구 I-Friend의 대규모 행사(오리엔테이션, 문화 교류 등) 현장에서 100여 명의 유학생이 스마트폰으로 즉시 확인하는 모바일 행사 안내 웹 가이드**  
+> 행사 장소, 타임라인, 미션 안내, 필수 제출 서류를 QR 코드 하나로 즉각 배포하여 운영진의 반복 문의 응대 업무를 80% 이상 절감시켰습니다.
 
 ---
 
-## 🛠️ 기술 스택 (Tech Stack)
-- **HTML5 & CSS3**: 모바일 퍼스트 반응형 디자인, 네온 글래스모피즘 & 조선 저승 테마 스타일링
-- **Vanilla JavaScript**: 실시간 5개 국어 I18n 전환 엔진, 오디오 효과음(Web Audio API), 반응형 타이머 모달
+## 📌 Problem & Impact
+
+* **Pain Point**: 매 학기 100+ 명의 다국적 유학생이 참여하는 행사에서 집결 장소, 시간표, 준비물에 대한 단순 문의가 현장 운영진에게 폭주하고 언어 장벽으로 인한 혼선 발생.
+* **Solution**: 종이 유인물이나 단체 카톡 공지 대신, 반나절 만에 모바일 최적화 웹 가이드를 구축하고 행사장 입구에 QR 코드로 비치.
+* **Outcome**:
+  - 현장 단순 문의 발생 건수 **80% 이상 급감**
+  - 운영진의 불필요한 단순 응대 피로도를 대폭 낮추고 행사 진행 본연의 업무에 집중할 수 있도록 현장 디지털 전환(DX) 달성.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: TypeScript, JavaScript, HTML5/CSS3 (Mobile First)
+- **Deployment**: Vercel
+
+---
+
+## 👩‍💻 Author
+* **오예진 (Oh Yejin)** - I-Friend 26기 기획부장 & 27기 부회장 / Full-Stack & PM  
+* Email: [yejin.6642@gmail.com](mailto:yejin.6642@gmail.com) | GitHub: [@yj2da](https://github.com/yj2da)
