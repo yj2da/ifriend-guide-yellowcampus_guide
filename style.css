@@ -464,6 +464,22 @@ body {
   padding: 0.8rem 1rem;
 }
 
+.hero-insta-badge {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.hero-insta-badge:hover {
+  transform: translateY(-2px);
+}
+
+.hero-insta-badge:hover span {
+  border-color: var(--yellow-neon);
+  color: var(--yellow-neon);
+}
+
 .hero-insta-badge span {
   background: rgba(10, 5, 24, 0.8);
   backdrop-filter: blur(8px);
@@ -473,6 +489,7 @@ body {
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-full);
   border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: border-color var(--transition-fast), color var(--transition-fast);
 }
 
 .floating-talisman-bar {
@@ -1145,6 +1162,13 @@ body {
   font-size: 1.15rem;
   font-weight: 800;
   color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  transition: color var(--transition-fast);
+}
+
+.insta-account:hover {
+  color: var(--yellow-neon);
 }
 
 .insta-tag-actions {
